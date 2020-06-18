@@ -1,0 +1,52 @@
+#desktop-header {
+    .avatar {
+        height: 30px;
+        width: 30px;
+        background-color: hsla(0, 0%, 100%, .2);
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    span.navbar-text {
+        cursor: pointer;
+
+        .nav-link {
+            padding: 0 .5rem;
+        }
+
+        .dropdown {
+            .dropdown-menu {
+                margin-top: 5px;
+                border: 0;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+            }
+
+            .dropdown-item {
+                font-size: 14px;
+
+                &:focus {
+                    outline: none;
+                }
+
+                &:active {
+                    background: #e2e2e2;
+                }
+            }
+        }
+
+        &:last-child {
+            a {
+                background-color: royalblue;
+                padding: 3px 10px;
+                border-radius: 3px;
+
+                &:active {
+                    background-color: blue;
+                }
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,14 @@
+#settings-menu {
+    padding-top: 20px;
+
+    .nav-item a {
+        display: block;
+        padding: .3rem 0;
+        color: #212529;
+        text-decoration: none;
+
+        &:hover {
+            background: #f8f9fa;
+        }
+    }
+}
