@@ -17,13 +17,13 @@ class SideBar extends Component {
             <div id="sidebar">
                 <Nav vertical>
                     <NavItem>
-                        <Link to="/about"><FaHotjar className="sidebar-icon" /> Hot</Link>
+                        <Link to="/hot"><FaHotjar className="sidebar-icon" /> Hot</Link>
                     </NavItem>
                     <NavItem>
-                        <Link to="/about"><FaChartLine className="sidebar-icon" /> Trending</Link>
+                        <Link to="/trending"><FaChartLine className="sidebar-icon" /> Trending</Link>
                     </NavItem>
                     <NavItem>
-                        <Link to="/about"><FaRegClock className="sidebar-icon" /> Fresh</Link>
+                        <Link to="/fresh"><FaRegClock className="sidebar-icon" /> Fresh</Link>
                     </NavItem>
                 </Nav>
 

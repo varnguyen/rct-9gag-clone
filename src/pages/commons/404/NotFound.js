@@ -4,7 +4,7 @@ import "./notfound.scss";
 const NotFound = () => {
 	return (<div id="page-notfound" className="fadeIn animated faster" style={{ height: '100vh' }}>
 		<div className="text-center">
-			<img src="/assets/images/404.png" alt="404" className="img-fluid" />
+			<img src="/assets/images/not-found.gif" alt="404" className="img-fluid" />
 			<br />
 			<br />
 			<div className="error-msg ">

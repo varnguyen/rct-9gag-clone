@@ -11,6 +11,7 @@ import MobileHeader from '../pages/commons/header/MobileHeader'
 import SideBar from './../pages/components/sidebar/SideBar'
 import Posts from '../pages/components/posts/Posts'
 import PostDetail from '../pages/components/post-detail/PostDetail'
+import Recover from '../pages/components/recover/Recover'
 
 const NotFound = lazy(() => import('../pages/commons/404/NotFound'))
 const Forbidden = lazy(() => import('../pages/commons/403/Forbidden'))
@@ -38,6 +39,7 @@ class AppRouter extends Component {
                                     <Route exact path="/gag/abcdxyz" render={(props) => (<PostDetail {...props} />)} />
                                     <Route path="/u/:username" render={(props) => (<UserRouter {...props} />)} />
                                     <Route path="/settings" render={(props) => (<SettingsRouter {...props} />)} />
+                                    <Route exact path="/recover" render={(props) => (<Recover {...props} />)} />
 
                                     <Route exact path="/404" render={(props) => <NotFound {...props} />} />
                                     {/* <Route exact path="/403" render={(props) => <Forbidden {...props} />} /> */}

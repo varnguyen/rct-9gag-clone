@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    padding-top: 62px;
+    padding-top: 49px;
     font-size: 14px;
 }
 
@@ -62,4 +62,14 @@ body {
 
 .round {
     border-radius: 50% !important;
+}
+
+input {
+    font-size: 14px !important;
+    border-radius: 2px !important;
+
+    &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
 }

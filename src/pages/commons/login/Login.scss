@@ -1,0 +1,21 @@
+#login {
+    padding: 20px;
+
+    .box {
+        position: relative;
+
+        .header {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            padding-top: 1rem;
+
+            .action {
+                .forgot {
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
