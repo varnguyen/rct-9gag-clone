@@ -7,5 +7,29 @@
         h1 {
             font-size: 24px;
         }
+
+        .box_item {
+            // border: 1px solid hsla(0, 0%, 100%, .2);
+            border: 1px solid #999;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+
+        }
+
+        .file-img {
+            height: 240px;
+            font-size: 16px;
+            margin: 0 0 16px;
+        }
+
+        .img-url,
+        .video-url {
+            height: 120px;
+        }
+
     }
 }

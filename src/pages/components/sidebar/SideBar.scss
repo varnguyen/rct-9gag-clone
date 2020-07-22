@@ -13,10 +13,22 @@
         padding: .3rem 0;
         color: #212529;
         text-decoration: none;
+        position: relative;
 
         &:hover {
             background: #f8f9fa;
+
+            // .star-icon {
+            //     display: block;
+            // }
         }
+
+        // .star-icon {
+        //     position: absolute;
+        //     right: 0;
+        //     top: 9px;
+        //     display: none;
+        // }
     }
 
     img {
